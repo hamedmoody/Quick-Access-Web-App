@@ -3,6 +3,7 @@ body{
     background-size: cover;
     direction: rtl;
     text-align: right;
+    font-family: YekanBakh, tahoma;
 }
 
 main#app {
