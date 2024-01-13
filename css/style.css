@@ -20,6 +20,31 @@ main#app {
     padding: 15px;
     box-shadow: 0 3px 6px rgba(0,0,0,.16);
 }
+.box-Right{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.05);
+    box-shadow: 0 3px 6px rgba(0,0,0,.16);
+    border-radius: 30px;
+    transition-duration: 0.8s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box-Right:hover{
+    width: 205px;
+    height: 52px;
+    font-size: 23px;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 6px rgba(0,0,0,.25);
+    border-radius: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 .container,.container-fluid,.container-lg,.container-md,.container-sm,.container-xl,.container-xxl{
     --bs-gutter-x:1.5rem;
